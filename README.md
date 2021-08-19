@@ -25,33 +25,9 @@ more about various [installation options](https://www.rabbitmq.com/download.html
 
 The following ports are available:
 
- * [C#](./dotnet)
- * [C# (with Visual Studio)](./dotnet-visual-studio)
- * [Clojure](./clojure)
- * [Common Lisp](./common-lisp)
- * [Dart](./dart)
- * [Elixir](./elixir) 
+ * [C#](./dotnet) * 
  * [Erlang](./erlang)
- * [Go](./go)
- * [Haskell](./haskell)
- * [JavaScript (with Node and amqp-node)](./javascript-nodejs) (using callbacks)
- * [JavaScript (with Node and amqp-node)](https://github.com/squaremo/amqp.node/tree/master/examples) (using promises/futures)
- * [Java with Maven](./java-mvn)
- * [Java (with IntelliJ IDEA)](./java-idea)
- * [Java](./java) (with manual dependency management)
- * [Kotlin](./kotlin)
- * [PHP (with php-amqplib)](./php)
- * [PHP (with php-amqp)](./php-amqp)
- * [PHP (with queue-interop)](./php-interop)
- * [Perl](./perl)
- * [Python (with Pika)](./python)
- * [Ruby (with Bunny)](./ruby)
- * [Rust](./rust)
- * [Scala](./scala)
- * [Swift](./swift)
- * [Spring AMQP](./spring-amqp)
- * [SoapUI](./soapui)
- 
+
 ## License
 
 Released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
