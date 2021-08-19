@@ -2,18 +2,20 @@
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using Shared;
 
 class Program
 {
     public static void Main()
     {
-        var factory = new ConnectionFactory() { HostName = "localhost" };
+        //var factory = new ConnectionFactory() { HostName = "localhost" };
+        var factory = ConnectionHelper.Factory;
         using (var connection = factory.CreateConnection())
         using (var channel = connection.CreateModel())
         {
             channel.ExchangeDeclare(exchange: "fanout_logs", type: ExchangeType.Fanout);
 
-            var queueName = channel.QueueDeclare("logQueue_Second").QueueName;
+            var queueName = channel.QueueDeclare("logQueue_Second", false, false).QueueName;
             channel.QueueBind(queue: queueName, exchange: "fanout_logs", routingKey: "");
 
             Console.WriteLine(" [*] Waiting for logs.");
