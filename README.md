@@ -25,8 +25,8 @@ more about various [installation options](https://www.rabbitmq.com/download.html
 
 The following ports are available:
 
- * [C#](./dotnet) * 
- * [Erlang](./erlang)
+ * [C#]
+ * [Erlang]
 
 ## License
 
