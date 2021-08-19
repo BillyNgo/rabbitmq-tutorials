@@ -35,6 +35,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "1_Receive_Second", "1_Recei
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2_Worker_Second", "2_Worker_Second\2_Worker_Second.csproj", "{DA5511A6-EF57-4893-9193-B36ACCDC3143}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{CE2FE8A2-DAD0-4766-86B8-40A29813EE2E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +107,10 @@ Global
 		{DA5511A6-EF57-4893-9193-B36ACCDC3143}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DA5511A6-EF57-4893-9193-B36ACCDC3143}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DA5511A6-EF57-4893-9193-B36ACCDC3143}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE2FE8A2-DAD0-4766-86B8-40A29813EE2E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE2FE8A2-DAD0-4766-86B8-40A29813EE2E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE2FE8A2-DAD0-4766-86B8-40A29813EE2E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE2FE8A2-DAD0-4766-86B8-40A29813EE2E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
